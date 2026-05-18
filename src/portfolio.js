@@ -1,21 +1,23 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://rjshkhr.github.io/cleanfolio', // Change this.
+  title: 'JH Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Jonathan Hurst',
+  role: 'Software Engineer and Game/Engine Developer',
+  // picture:
+  //   'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "I'm an engineer primarily working with C++, Godot and Unity. I enjoy creating games and working on backend systems for engines and other types of apps.",
+  // resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/jonathan-hurst-ba82702b2/',
+    github: 'https://github.com/Linkazen',
+    itchio: 'https://linkazen.itch.io/',
   },
 }
 
@@ -23,53 +25,56 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Galactic Garage',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'A chaotic couch co-op multiplayer game, where you repair ships together with a friend.',
+    stack: ['Godot', 'GDScript'],
+    livePreview: 'https://zero-bounds-studios.itch.io/galactic-garage',
+    image: 'GalacticGaragePoster.png',
   },
   {
-    name: 'Project 2',
+    name: 'Born to Krill',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'A short Cuphead style game about a shrimp battling an octopus. Created for the Global Game Jam 2025.',
+    stack: ['Unity', 'C#'],
+    sourceCode: 'https://github.com/Linkazen/GlobalGameJam2025',
+    livePreview: 'https://aronagox.itch.io/born-to-krill',
+    image: 'BornToKrillCover.png',
   },
   {
-    name: 'Project 3',
+    name: 'Sincantation',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A rogue-like where you combine spells to create unique incantations of destruction as you fight through multiple floors and enemies.',
+    stack: ['Unity', 'C#'],
+    sourceCode: 'https://github.com/Serpendio/2-too-many-jam',
+    livePreview: 'https://jowsey.itch.io/sincantation',
+    image: 'SincantationCover.png',
+  },
+  {
+    name: 'World Machine',
+    description:
+      'An object oriented DX11 engine utilising C++ to implement full object serialization, Jolt physics and a full editor with reflection capabilities and level creation.',
+    stack: ['C++'],
+    sourceCode: 'https://github.com/Linkazen/WorldMachine',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'C++',
+  'C#',
+  'Godot',
+  'GDScript',
+  'Unity',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Perforce',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'jpch2k4@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
